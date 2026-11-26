@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard — HearthLedger</title>
+<meta name="description" content="HearthLedger: a household budget site for the Alvarez family — dashboard, transactions, budgets, savings goals, bills and reports, all working offline.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/">HearthLedger</a>
+  <nav class="nav" aria-label="Sections">
+    <a href="#/">Dashboard</a>
+    <a href="#/transactions">Transactions</a>
+    <a href="#/budgets">Budgets</a>
+    <a href="#/goals">Goals</a>
+    <a href="#/bills">Bills</a>
+    <a href="#/reports">Reports</a>
+  </nav>
+  <span id="saved-note" class="saved-note" role="status" aria-live="polite"></span>
+</header>
+<main id="page"></main>
+<footer class="foot">
+  <p>HearthLedger keeps one household's budget: the Alvarez family of four, November 2026.
+  Everything is stored in this browser only — nothing leaves the device, and no account is needed.</p>
+  <p><button class="mini" data-action="reset-data">Restore the sample month</button>
+  Use it after trying the add, edit and delete controls, to put the sample figures back.</p>
+</footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>
